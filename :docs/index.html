@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <title>forkify // Search over 1,000,000 recipes</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="img/logo.png" alt="Logo" class="header__logo">
+            <form class="search">
+                <input type="text" class="search__field" placeholder="Search over 1,000,000 recipes...">
+                <button class="btn search__btn">
+                    <svg class="search__icon">
+                        <use href="img/icons.svg#icon-magnifying-glass"></use>
+                    </svg>
+                    <span>Search</span>
+                </button>
+            </form>
+            <div class="likes">
+                <div class="likes__field">
+                    <svg class="likes__icon">
+                        <use href="img/icons.svg#icon-heart"></use>
+                    </svg>
+                </div>
+                <div class="likes__panel">
+                    <ul class="likes__list">
+                       
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="results">
+            <ul class="results__list">
+               
+            </ul>
+
+            <div class="results__pages">
+           
+            </div>
+        </div>
+
+
+        <div class="recipe">
+
+        </div>
+
+
+
+        <div class="shopping">
+            <h2 class="heading-2">My Shopping List</h2>
+            <button class="btn-inline list-btn" id="clear-list">
+                <span>CLEAR LIST</span>
+            </button>
+            <button class="btn-inline list-btn" id="add-item">
+                <span>ADD ITEM</span>
+            </button>
+            <li class="shopping__item shopping__form">
+                    <div class="shopping__count">
+                        <input type="number" value="0" id="count">
+                        <!-- <input type="text" placeholder="unit"> -->
+                        <select id="unit__selector">
+                            <option value="oz">oz</option>
+                            <option value="tbsp">tbsp</option>
+                            <option value="cup">cup</option>
+                            <option value="pound">pound</option>
+                        </select>
+                    </div>
+                    <input class="shopping__count shopping__description__form" type="text" placeholder="ingredient" id="ing_description">
+                    <button class="shopping__delete btn-tiny shopping__list__add-btn">
+                        <svg>
+                            <use href="img/icons.svg#icon-check"></use>
+                        </svg>
+                    </button>
+                </li>
+
+            <ul class="shopping__list">
+   
+            </ul>
+
+            <br>
+            <br>
+
+            <div class="copyright">
+                &copy; by Felipe. Powered by
+                <a href="http://food2fork.com" target="_blank" class="link">Food2Fork.com</a>.
+            </div>
+
+        </div>
+    </div>
+
+<script type="text/javascript" src="js/bundle.js"></script></body>
+
+</html>
