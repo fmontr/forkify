@@ -4,6 +4,8 @@ An application that relies on API requests to get data. It was developed within 
 
 Aplicação que se baseia em API requests para acesso aos dados. Foi desenvolvido com uma arquitetura MVC. Webpack foi usado para fazer o bundle final do código js e o babel para garantir uma compatibilidade com browsers mais antigos.
 
+![alt text](previous.png)
+
 ## Dependencies & devDep
 - axios (http requests)
 - fractional
@@ -12,3 +14,5 @@ Aplicação que se baseia em API requests para acesso aos dados. Foi desenvolvid
 - babel
 
 ### Check it out [online](https://fmontr.github.io/forkify/:docs/)
+
+
